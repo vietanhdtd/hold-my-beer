@@ -1,0 +1,35 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+  }
+  body {
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  nav { 
+    height: 80px; 
+    background-color: black; 
+  }
+  header { 
+    height: 805px; 
+    background-color: orange; 
+  }
+  footer { 
+    height: 538px; 
+    background-color: black; 
+  }
+.spotify-logo {
+    width: 200px;
+    height: 60px;
+    margin: 10px 0;
+}
+nav ul {
+    width: 484px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+  }
