@@ -33,3 +33,6 @@ nav ul {
     align-items: center;
     margin-left: auto;
   }
+.list-group {
+  color: white;
+}
