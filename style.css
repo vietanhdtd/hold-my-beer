@@ -10,33 +10,175 @@
   }
   nav { 
     height: 80px; 
-    background-color: black; 
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+
   }
   header { 
     height: 805px; 
-    background-color: orange; 
+    background: linear-gradient(#f037a5 -60%,#fae62d 140%); 
   }
-  footer { 
+  .hero-img {
+    height: inherit;
+    margin: 0 auto;
+    background-image: url(https://www.scdn.co/i/home/hero-burst-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+ #title1 {
+    width: inherit;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 1.15;
+    margin-top: 0;
+    margin-block-end: 16px;
+  }
+#title2 {
+    width: inherit;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+  }
+header .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+.btn-spotify{
+    width: 260px;
+      margin: 0 auto;
+      color: white;
+      background-color: #1db954;
+      padding: 18px 42px 18px;
+      border: 0px;
+      border-radius: 500px;
+      margin-top: 16px;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 1;
+      letter-spacing: 2px;
+      transition-duration: .3s;
+  }
+  .btn-spotify:active{
+    border: none;
+  }
+  .btn-spotify:hover {
+    cursor: pointer;
+    background-color: #1ed760;
+  }
+    footer { 
     height: 538px; 
     background-color: black; 
   }
 .spotify-logo {
-    width: 200px;
-    height: 60px;
-    margin: 10px 0;
+    width: 132px;
+    height: 40px;
+    margin: 20px;
+}
+.container{
+  height: inherit; /* get parent height */
+      width: 1170px;   /* add 970px for smaller screen */
+      margin: 0 auto;
+      padding: 0 15px;
+      display: flex;
 }
 nav ul {
-    width: 484px;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: auto;
-  }
-.list-group {
-  color: white;
+  width: 484px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
 }
-.p {
-  size: 20px;
-  align-content: center;
+nav ul a {
+  color: white;
+  text-decoration: black;
+  font-weight: bold;
+}
+nav ul a:hover{
+  color: #1ed760;
+}
+footer .container{
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-between;
+}
+.footer-text{
+  /* border: 2px solid green;  */
+  display: flex;
+  width: 100%;
+  /* justify-content: space-between; */
+  margin-top: 70px;
+  
+}
+.footer-text li{
+  margin: 15px 0;
+}
+.top-text{
+  font-family: Circular, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #919496;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.4;
+    letter-spacing: 0.96px;
+    line-height: 16.8px;
+
+}
+.Company{
+  font-size: 16px;
+    font-weight: 400;
+    padding: .1875em 0;
+    margin-bottom: .75em;
+    color:white;
+    list-style-type: none;
+    width: 150px;
+    font-weight: 400;
+
+}
+.Communities {
+  font-size: 16px;
+    font-weight: 400;
+    padding: .1875em 0;
+    margin-bottom: .75em;
+    color:white;
+    list-style-type: none;
+    width: 150px;
+    font-weight: 400;
+
+}
+.useful-links {
+  font-size: 16px;
+    font-weight: 400;
+    padding: .1875em 0;
+    margin-bottom: .75em;
+    color:white;
+    list-style-type: none;
+    width: 150px;
+    font-weight: 400;
+
+}
+.button {
+  width: 40px;
+  height: auto;
+ background-color: white;
+ flex-direction: row;
+ display: flex;
+ border-radius: 30px;
+}
+.footer-social {
+  list-style-type: none;
+  flex-direction: row;
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-around;
+  width: 300px;
+
 }
