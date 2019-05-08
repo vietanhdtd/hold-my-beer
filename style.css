@@ -106,16 +106,12 @@ nav ul a:hover{
 }
 footer .container{
   display: flex;
-  /* border: 2px solid red; */
   justify-content: space-between;
 }
 .footer-text{
-  /* border: 2px solid green;  */
   display: flex;
   width: 100%;
-  /* justify-content: space-between; */
   margin-top: 70px;
-  
 }
 .footer-text li{
   margin: 15px 0;
@@ -130,7 +126,6 @@ footer .container{
     line-height: 1.4;
     letter-spacing: 0.96px;
     line-height: 16.8px;
-
 }
 .Company{
   font-size: 16px;
@@ -141,7 +136,6 @@ footer .container{
     list-style-type: none;
     width: 150px;
     font-weight: 400;
-
 }
 .Communities {
   font-size: 16px;
@@ -152,7 +146,6 @@ footer .container{
     list-style-type: none;
     width: 150px;
     font-weight: 400;
-
 }
 .useful-links {
   font-size: 16px;
@@ -163,7 +156,10 @@ footer .container{
     list-style-type: none;
     width: 150px;
     font-weight: 400;
-
+}
+.footer-text ul li a:hover{
+  cursor: pointer;
+  color: #1ed760;
 }
 .button {
   width: 40px;
